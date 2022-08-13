@@ -2055,16 +2055,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-react@npm:3.5.1":
-  version: 3.5.1
-  resolution: "@clerk/clerk-react@npm:3.5.1"
+"@clerk/clerk-react@npm:4.0.2":
+  version: 4.0.2
+  resolution: "@clerk/clerk-react@npm:4.0.2"
   dependencies:
-    "@clerk/types": ^2.21.0
+    "@clerk/types": ^3.1.0
     swr: ^1.3.0
     tslib: ^2.3.1
   peerDependencies:
     react: ">=16"
-  checksum: bc0bc5261a263dbbab9d54558d5d819eaa22769a403e026996b827a62aedeb4d8f24284413e1751c29c5d2e7cbb529a8bd379cb2b1d87147f1fb9872c141d7ef
+  checksum: 167f4fda2d3d3dde622566e4041825a81e62e0bcfbfd65bea81651eafba453d35283c0732fad39ce668a908d5e8714b029a377f843035150677680052b4587f2
   languageName: node
   linkType: hard
 
@@ -2091,6 +2091,13 @@ __metadata:
   version: 2.21.0
   resolution: "@clerk/types@npm:2.21.0"
   checksum: 91c0a07459d6a11e8b79f8ebc31fa81c37a947313d67deb3a3d31519bf8b360ce8ac902d534fbd2f764cf382aa9e5a016398488da81dc72589e34daa04d3f48f
+  languageName: node
+  linkType: hard
+
+"@clerk/types@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@clerk/types@npm:3.1.0"
+  checksum: bb25f6ac4ca0ce7cd6cfb0017629325c9f2fdd5467e98b01c6669f0a079cd1a28609051ac6f0add5af75cdc6843ee6ab500145c7c29a42cec86c310256badae5
   languageName: node
   linkType: hard
 
@@ -6306,7 +6313,7 @@ __metadata:
     "@babel/core": 7.16.7
     "@babel/runtime-corejs3": 7.16.7
     "@clerk/clerk-js": 3.17.0
-    "@clerk/clerk-react": 3.5.1
+    "@clerk/clerk-react": 4.0.2
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
     "@nhost/hasura-auth-js": 1.4.0
