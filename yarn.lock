@@ -2087,7 +2087,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/types@npm:2.21.0, @clerk/types@npm:^2.21.0":
+"@clerk/types@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@clerk/types@npm:3.1.0"
+  checksum: bb25f6ac4ca0ce7cd6cfb0017629325c9f2fdd5467e98b01c6669f0a079cd1a28609051ac6f0add5af75cdc6843ee6ab500145c7c29a42cec86c310256badae5
+  languageName: node
+  linkType: hard
+
+"@clerk/types@npm:^2.21.0":
   version: 2.21.0
   resolution: "@clerk/types@npm:2.21.0"
   checksum: 91c0a07459d6a11e8b79f8ebc31fa81c37a947313d67deb3a3d31519bf8b360ce8ac902d534fbd2f764cf382aa9e5a016398488da81dc72589e34daa04d3f48f
@@ -6308,7 +6315,7 @@ __metadata:
     "@clerk/clerk-js": 3.17.0
     "@clerk/clerk-react": 3.5.1
     "@clerk/clerk-sdk-node": 3.9.2
-    "@clerk/types": 2.21.0
+    "@clerk/types": 3.1.0
     "@nhost/hasura-auth-js": 1.4.0
     "@nhost/nhost-js": 1.4.7
     "@okta/okta-auth-js": 6.7.4
