@@ -21,9 +21,6 @@
 /**
  * # ES
  */
-// ✅ / Node.js 13 / es.math.hypot
-Math.hypot(3, 4)
-
 // ❌ / Node.js 17 / es.typed-array.set
 //
 // This is overriden in core-js-pure.
@@ -237,9 +234,6 @@ s.addAll()
  *
  * Stage 1 proposal / esnext.string.code-points
  *
- * Node.js 14 / esnext.string.match-all
- * Starts with esnext cause core-js is pinned to v3.0.0.
- *
  * Node.js 15 / esnext.string.replace-all
  * Starts with esnext cause core-js is pinned to v3.0.0.
  *
@@ -248,10 +242,6 @@ s.addAll()
 for (let { codePoint, position } of 'qwe'.codePoints()) {
   console.log(codePoint)
   console.log(position)
-}
-
-for (let [_, d, D] of '1111a2b3cccc'.matchAll(/(\d)(\D)/g)) {
-  console.log(d, D)
 }
 
 'Test abc test test abc test.'.replaceAll('abc', 'foo')
